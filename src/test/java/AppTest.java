@@ -1,3 +1,5 @@
+//import app.config.AppConfig;
+//import app.model.AnimalsCage;
 //import org.junit.Assert;
 //import org.junit.Test;
 //import org.junit.runner.RunWith;
@@ -6,25 +8,25 @@
 //import org.springframework.test.context.ContextConfiguration;
 //import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 //
-//
 //@RunWith(SpringJUnit4ClassRunner.class)
 //@ContextConfiguration(classes = AppConfig.class)
-//public class AppTest {
+//public class MainTest {
 //
 //    @Autowired
 //    private ApplicationContext applicationContext;
 //
 //    @Test
 //    public void mainTest() {
-//        HelloWorld tree =
-//                applicationContext.getBean(HelloWorld.class);
-//        HelloWorld leaf =
-//                applicationContext.getBean(HelloWorld.class);
-//
-//        Cat one = applicationContext.getBean(Cat.class);
-//        Cat two = applicationContext.getBean(Cat.class);
-//
-//        Assert.assertSame("Тест провален, не корректная настройка бина HelloWorld", tree, leaf);
-//        Assert.assertNotSame("Тест провален, не корректная настройка бина Cat", one, two);
+//        long time = 0;
+//        for (int i = 0; i < 5; i++) {
+//            AnimalsCage bean =
+//                    applicationContext.getBean(AnimalsCage.class);
+//            if (i == 0) {
+//                time = bean.getTimer().getTime();
+//                continue;
+//            }
+//            Assert.assertEquals("Test failed, incorrect bean implementation.", time, bean.getTimer().getTime().longValue());
+//            System.out.println(time);
+//        }
 //    }
 //}
