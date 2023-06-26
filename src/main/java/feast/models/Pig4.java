@@ -1,11 +1,11 @@
-package app.model;
+package feast.models;
 
 import org.springframework.stereotype.Component;
 
 @Component
-public class Cat extends Animal {
+public class Pig4 {
     @Override
     public String toString() {
-        return "Im a Cat";
+        return "which is stuffed inside a lamb, ";
     }
 }
