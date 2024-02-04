@@ -5,12 +5,10 @@ import jm.task.core.jdbc.model.User;
 import java.util.List;
 
 import jm.task.core.jdbc.dao.UserDaoJDBCImpl;
-import jm.task.core.jdbc.dao.User
 
 
 public class UserServiceImpl implements UserService {
-    //UserDaoJDBCImpl imp = new UserDaoJDBCImpl();
-    UserDaoHibernateImpl imp = new UserDaoHibernateImpl();
+    UserDaoJDBCImpl imp = new UserDaoJDBCImpl();
     public void createUsersTable() {
         try{
             imp.createUsersTable();}
