@@ -1,5 +1,6 @@
 package jm.task.core.jdbc;
 
+import jm.task.core.jdbc.dao.UserDaoHibernateImpl;
 import jm.task.core.jdbc.dao.UserDaoJDBCImpl;
 
 import jm.task.core.jdbc.model.User;
@@ -12,6 +13,7 @@ public class Main {
     public static void main(String[] args) {
         // implement algorithm here
         UserDaoJDBCImpl userDao = new UserDaoJDBCImpl();
+        //UserDaoHibernateImpl userDao = new UserDaoHibernateImpl();
 
         // Creating a table for Users
         userDao.createUsersTable();
