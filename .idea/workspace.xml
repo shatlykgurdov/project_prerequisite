@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c52e8b76-fe62-4a0e-ad09-a3077e641761" name="Changes" comment="Coded as per requirements&#10;&#10;Coded as per requirements">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/AnimalsCage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/model/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/model/Timer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/feast/models/Camel8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/feast/models/Camel8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/feast/models/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Merging task__2__1__5",
+    "git-widget-placeholder": "task__2__1__5",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,20 +54,10 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="spring-types-of-wiring" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="spring-types-of-wiring" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="feast.models" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -84,6 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1708884158444</updated>
       <workItem from="1708884163178" duration="930000" />
+      <workItem from="1709058782648" duration="208000" />
     </task>
     <servers />
   </component>
