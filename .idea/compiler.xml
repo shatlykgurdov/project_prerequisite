@@ -11,6 +11,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-beans" target="17" />
+      <module name="spring-hibernate" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
