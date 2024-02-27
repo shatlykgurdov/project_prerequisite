@@ -1,5 +1,5 @@
-import app.config.AppConfig;
-import app.model.AnimalsCage;
+import feast.TraditionalFeast;
+import feast.config.AppConfig;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -17,16 +17,16 @@ public class MainTest {
 
     @Test
     public void mainTest() {
-        long time = 0;
-        for (int i = 0; i < 5; i++) {
-            AnimalsCage bean =
-                    applicationContext.getBean(AnimalsCage.class);
-            if (i == 0) {
-                time = bean.getTimer().getTime();
-                continue;
-            }
-            Assert.assertEquals("Test failed, incorrect bean implementation.", time, bean.getTimer().getTime().longValue());
-            System.out.println(time);
+        String text = "Traditional Bedouin Wedding Feast consists of stuffing of a rabbit inside of a duck, which is stuffed inside a chicken, which is stuffed inside a pig, which is stuffed inside a lamb, which is stuffed inside a goat, which is stuffed inside a horse, which is stuffed inside a camel, and cooked over a charcoal fire.";
+
+        TraditionalFeast traditionalFeast =
+                applicationContext.getBean(TraditionalFeast.class);
+        System.out.println(traditionalFeast.getTraditionalFeast());
+        String testText = traditionalFeast.getTraditionalFeast();
+
+        if (!testText.contains(text) && testText.length() <= text.length()) {
+            Assert.fail("The test failed due to incorrect wiring of the beans");
         }
     }
+
 }
