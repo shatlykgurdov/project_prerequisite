@@ -16,6 +16,6 @@ public class AppConfig {
     @Bean(name = "cat")
     @Scope("prototype")
     public Cat cat() {
-        return new Cat("Whiskers", 3, "Brown");
+        return new Cat("Whisker");
     }
 }
